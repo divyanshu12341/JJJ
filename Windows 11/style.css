@@ -1,0 +1,50 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url(img/windows-11-light.jpg);
+    background-size: cover;
+}
+.win-11-logo{
+    width: 30px;
+    filter: brightness(125%);
+}
+.fa-search{
+    transform: rotate(90deg);
+    font-size: 26px;
+    color:rgb(14, 14,14);
+    margin-left: 20px;
+}
+.navigation{
+    background-color: #d5dbe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    /* background-color:rgb(41,41,41); */
+    background-image: radial-gradient(rgb(41,41,41),rgb(54,54,54));
+    margin-left: 30px;
+    /* rgb(41,41,41)
+    rgb(54,54,54) */
+    position: relative;
+}
+.box-1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    background-color: grey;
+}
